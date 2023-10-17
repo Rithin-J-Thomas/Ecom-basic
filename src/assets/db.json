@@ -1,0 +1,88 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Shirt ",
+      "categoryId": 1,
+      "description": "mens casual Shirt",
+      "price": 600,
+      "image": "https://assets.ajio.com/medias/sys_master/root/20230906/vVWa/64f80929afa4cf41f5b34d62/-473Wx593H-461119105-blue-MODEL.jpg",
+      "rating": 4.5,
+      "review": 23,
+      "warrenty": 1,
+      "is_availiable": true
+    },
+    {
+      "id": 2,
+      "productName": "Shirt ",
+      "categoryId": 1,
+      "description": "mens casual Shirt",
+      "price": 650,
+      "image": "https://images.meesho.com/images/products/104630012/2cxxl_512.webp",
+      "rating": 3.5,
+      "review": 23,
+      "warrenty": 1,
+      "is_availiable": true
+    },
+    {
+      "id": "3",
+      "productName": "Pants",
+      "categoryId": "1",
+      "description": "nice",
+      "price": "300",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/75ce7bbd752242fdb90eaf3c0087f304_9366/Valentines_Day_Pants_Grey_IL8302_HM1.jpg",
+      "rating": "4.8",
+      "review": "5 ",
+      "warrenty": "3",
+      "is_availiable": "5"
+    },
+    {
+      "id": "4",
+      "productName": "Samsung Galaxy A34 ",
+      "categoryId": "2",
+      "description": "Awesome Silver,8GB, 128GB Storage,48 MP No Shake Cam ,Gorilla Glass 5  ,Voice Focus ,Without Charger",
+      "price": "28999",
+      "image": "https://m.media-amazon.com/images/I/71Hlw9Dsf1L._SX679_.jpg",
+      "rating": "4.1",s
+      "review": "4 ",
+      "warrenty": "3",
+      "is_availiable": "9"
+    },
+    {
+      "id": "5",
+      "productName": "Whisk",
+      "categoryId": "3",
+      "description": "Kuber Industries Multiuses Stainless Steel Kitchen Utensil Balloon Shape Wire Whisk, Egg Beater, Kitchen Tool, 20cm ",
+      "price": "80",
+      "image": "https://m.media-amazon.com/images/I/61tK9s2Mc0L._SY355_.jpg",
+      "rating": "4.2",
+      "review": "3 ",
+      "warrenty": "4",
+      "is_availiable": "8"
+    },
+    {
+      "id": "6",
+      "productName": "Head & Shoulders",
+      "categoryId": "4",
+      "description": "Head & Shoulders Cool Menthol Anti Dandruff Shampoo for Women & Men, 1L",
+      "price": "649",
+      "image": "https://m.media-amazon.com/images/I/71iA2diBDBL._SY355_.jpg",
+      "rating": "4.4",
+      "review": "3",
+      "warrenty": "4",
+      "is_availiable": "7"
+    },
+    {
+      "id": "7",
+      "productName": "Atomic Habits",
+      "categoryId": "5",
+      "description": "Atomic Habits ,January 2018 by James Clear",
+      "price": "514",
+      "image": "https://m.media-amazon.com/images/I/51-nXsSRfZL._SY445_SX342_.jpg",
+      "rating": "4.5",
+      "review": "4",
+      "warrenty": "3",
+      "is_availiable": "5"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+<h1 class="text-primary">Edit Product</h1>
+<form (ngSubmit)="update()" action="">
+    <input [(ngModel)]="pdata.id" name="nid" class="form-control w-50 mt-2" type="text" placeholder="ID">
+
+    <input [(ngModel)]="pdata.productName" name="nproduct"  class="form-control w-50 mt-2" type="text" placeholder="productName">
+ 
+    <input [(ngModel)]="pdata.categoryId" name="ncategory"  class="form-control w-50 mt-2" type="text" placeholder="categoryId">
+ 
+    <input [(ngModel)]="pdata.description" name="ndescription"  class="form-control w-50 mt-2" type="text" placeholder="description">
+ 
+    <input [(ngModel)]="pdata.price" name="nprice"  class="form-control w-50 mt-2" type="text" placeholder="price">
+ 
+    <input [(ngModel)]="pdata.image" name="nimage"  class="form-control w-50 mt-2" type="text" placeholder="image">
+ 
+    <input [(ngModel)]="pdata.rating" name="nrating"  class="form-control w-50 mt-2" type="text" placeholder="rating">
+ 
+    <input [(ngModel)]="pdata.review" name="nreview"  class="form-control w-50 mt-2" type="text" placeholder="review">
+ 
+    <input [(ngModel)]="pdata.warrenty" name="nwarrenty"  class="form-control w-50 mt-2" type="text" placeholder="warrenty">
+ 
+    <input [(ngModel)]="pdata.is_availiable" name="nis_availiable"  class="form-control w-50 mt-2" type="text" placeholder="is_availiable">
+
+    <button type="submit" class="btn btn-primary my-4">Update</button>
+
+</form>

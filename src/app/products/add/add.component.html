@@ -1,0 +1,55 @@
+<h1 class="text-primary">Add New Product</h1>
+<form (ngSubmit)="addNewProduct()" action="" [formGroup]="addFormModel">
+    <input formControlName="id" class="form-control w-50 mt-2" type="text" placeholder="ID">
+    <p class="text-danger validation-text-output"
+        *ngIf="this.addFormModel.get('id')?.errors && this.addFormModel.get('id')?.touched">Accept Only Numbers
+    </p>
+
+    <input formControlName="productName" class="form-control w-50 mt-2" type="text" placeholder="productName">
+    <p class="text-danger validation-text-output"
+        *ngIf="this.addFormModel.get('productName')?.errors && this.addFormModel.get('productName')?.touched">Accept Only Letters
+    </p>
+
+    <input formControlName="categoryId" class="form-control w-50 mt-2" type="text" placeholder="categoryId">
+    <p class="text-danger validation-text-output"
+        *ngIf="this.addFormModel.get('categoryId')?.errors && this.addFormModel.get('categoryId')?.touched">Accept Only Numbers
+    </p>
+
+    <input formControlName="description" class="form-control w-50 mt-2" type="text" placeholder="description">
+    <p class="text-danger validation-text-output"
+        *ngIf="this.addFormModel.get('description')?.errors && this.addFormModel.get('description')?.touched">Accept Letter , Numbers and Special Characters
+    </p>
+
+    <input formControlName="price" class="form-control w-50 mt-2" type="text" placeholder="price">
+    <p class="text-danger validation-text-output"
+        *ngIf="this.addFormModel.get('price')?.errors && this.addFormModel.get('price')?.touched">Accept Only Numbers
+    </p>
+
+    <input formControlName="image" class="form-control w-50 mt-2" type="text" placeholder="image">
+    <p class="text-danger validation-text-output"
+        *ngIf="this.addFormModel.get('image')?.errors && this.addFormModel.get('image')?.touched">Invalid URL Format
+    </p>
+
+    <input formControlName="rating" class="form-control w-50 mt-2" type="text" placeholder="rating">
+    <p class="text-danger validation-text-output"
+        *ngIf="this.addFormModel.get('rating')?.errors && this.addFormModel.get('rating')?.touched">Accept Only Numbers
+    </p>
+
+    <input formControlName="review" class="form-control w-50 mt-2" type="text" placeholder="review">
+    <p class="text-danger validation-text-output"
+        *ngIf="this.addFormModel.get('review')?.errors && this.addFormModel.get('review')?.touched">Accept Letter , Numbers and Special Characters
+    </p>
+
+    <input formControlName="warrenty" class="form-control w-50 mt-2" type="text" placeholder="warrenty">
+    <p class="text-danger validation-text-output"
+        *ngIf="this.addFormModel.get('warrenty')?.errors && this.addFormModel.get('warrenty')?.touched">Accept Only Numbers
+    </p>
+
+    <input formControlName="is_availiable" class="form-control w-50 mt-2" type="text" placeholder="is_availiable">
+    <p class="text-danger validation-text-output"
+        *ngIf="this.addFormModel.get('is_availiable')?.errors && this.addFormModel.get('is_availiable')?.touched">Accept Only Numbers
+    </p>
+
+    <button type="submit" class="btn btn-danger my-4">ADD</button>
+
+</form>
